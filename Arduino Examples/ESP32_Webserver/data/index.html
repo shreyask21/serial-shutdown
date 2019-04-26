@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>ESP32 Webserver</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<header>
+		<h1>Remote Shutdown</h1>
+	</header>
+
+	<body bgcolor="#111">
+
+		<form>
+			<fieldset class="align-center">
+				<legend>Shutdown PC</legend>
+				<br></br>
+				<button class="btn" style="vertical-align:middle" onclick="al()"><span><a href="/1">Shut down</span></button>
+				<br></br>
+			</fieldset>
+		</form>
+
+		<form>
+			<fieldset class="align-center">
+				<legend>Download the Windows client app</legend>
+					<br></br>
+					<a href="/WindowsClient.exe">Click here to download!</a>
+					<br></br>
+			</fieldset>
+		</form>
+		<script>function al() {alert("Sent Keyword");}</script>
+	</body>
+</html>
